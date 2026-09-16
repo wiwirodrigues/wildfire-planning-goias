@@ -34,7 +34,7 @@ To transform raw satellite telemetry into actionable insights, an interactive da
 * **Dynamic Filters:** Filter data effortlessly by `Year`, `Month`, and specific `Parks`[cite: 2].
 * **Real-time Metrics (`Total Hotspots`):** Instant aggregation of fire focus points based on customized user filters[cite: 2].
 
-> *🔗 **Access Link:** [Insert your published Power BI web link here]*
+> *🔗 **Access Link:** (https://app.powerbi.com/view?r=eyJrIjoiNWRkNDQwN2QtOGRjOS00NjMwLTkzNTctMTBkMDZmZjY2YzhlIiwidCI6Ijk1NDYxM2ZhLWUzN2UtNDZkNi04NGYxLTJmYjNmMzY3MjExMyJ9)*
 
 ---
 
