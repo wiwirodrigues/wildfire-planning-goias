@@ -11,38 +11,77 @@ Interactive Business Intelligence dashboard for wildfire prevention planning in 
 ---
 
 ## 📌 About the Project
-This project presents an interactive **Business Intelligence (BI)** dashboard designed to support strategic planning and preventive actions against wildfires in the state parks of Goiás, Brazil[cite: 2]. 
 
-Using historical georeferenced hotspot data from **2016 to 2025**[cite: 2], the tool helps decision-makers identify critical areas, analyze fire recurrence patterns, and optimize the allocation of operational resources for environmental protection.
+This project presents an interactive **Business Intelligence (BI)** dashboard designed to support strategic planning and preventive actions against wildfires in the state parks of Goiás, Brazil.  
+Using historical georeferenced hotspot data from **2016 to 2025**, the tool helps decision-makers identify critical areas, analyze fire recurrence patterns, and optimize the allocation of operational resources for environmental protection.
+
+---
+
+## 🚀 Live Interactive Dashboard
+
+Explore the interactive Power BI dashboard directly in your browser:  
+👉 **[Access the Power BI Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNWRkNDQwN2QtOGRjOS00NjMwLTkzNTctMTBkMDZmZjY2YzhlIiwidCI6Ijk1NDYxM2ZhLWUzN2UtNDZkNi04NGYxLTJmYjNmMzY3MjExMyJ9)**
+
+---
+
+## 📊 Dashboard Preview
+
+Here is a preview of the interactive analytical views structured in the Power BI dashboard:
+
+<p align="center">
+  <img src="assets/dashboard-1.png" alt="Dashboard Overview - Monthly Hotspots & Parks Ranking" width="100%">
+</p>
+<p align="center">
+  <em>Figure 1: Hotspots temporal distribution by month and ranking by state park.</em>
+</p>
+
+<!-- You can add additional screenshots below following the same format -->
+<!--
+<p align="center">
+  <img src="assets/dashboard-2.png" alt="Interactive Map View" width="100%">
+</p>
+<p align="center">
+  <em>Figure 2: Geospatial distribution of hotspots across Goiás State Parks.</em>
+</p>
+-->
 
 ---
 
 ## 🔍 Key Findings & Ecological Insights
-* **The Core Question:** *How long does it take for a burned area in the Cerrado to burn again?*
-* **Statistical Discoveries:** 
-  * **Historical Average (Hotspot Recurrence Interval - IRFC):** ~3.05 years[cite: 2].
-  * **Statistical Mode (Peak Frequency):** **2 years** (representing 25.9% of all reburn events)[cite: 2].
-* **The Ecological Factor:** The Cerrado biome features a high density of grasses and herbaceous vegetation (fine fuels) with rapid biomass reconstitution capacity[cite: 2], explaining why the vast majority of reburns (87.2%) occur within a 4-year window[cite: 2].
+
+* **The Core Question:** How long does it take for a burned area in the Cerrado biome to burn again?
+* **Statistical Discoveries:**
+  * **Historical Average (Hotspot Recurrence Interval - IRFC):** ~3.05 years.
+  * **Statistical Mode (Peak Frequency):** 2 years (representing 25.9% of all reburn events).
+* **The Ecological Factor:** The Cerrado biome features a high density of grasses and herbaceous vegetation (fine fuels) with rapid biomass reconstitution capacity, explaining why the vast majority of reburns (87.2%) occur within a 4-year window.
+* **Critical Units:** The **Terra Ronca State Park (PETER)** alone concentrated **50.7%** of the records (1,406 foci), followed by the **Serra Dourada State Park (PESD)** with **20.6%**.
 
 ---
 
-## 📊 The Power BI Dashboard
-To transform raw satellite telemetry into actionable insights, an interactive dashboard was built using **Microsoft Power BI**[cite: 2].
+## 📁 Data Sources & Methodology
 
-### Dashboard Features:
-* **Interactive Map (`Azure Maps`):** Spatial visualization of historical hotspots (2016–2025) categorized chronologically by year[cite: 2].
-* **Dynamic Filters:** Filter data effortlessly by `Year`, `Month`, and specific `Parks`[cite: 2].
-* **Real-time Metrics (`Total Hotspots`):** Instant aggregation of fire focus points based on customized user filters[cite: 2].
-
-> *🔗 **Access Link:** (https://app.powerbi.com/view?r=eyJrIjoiNWRkNDQwN2QtOGRjOS00NjMwLTkzNTctMTBkMDZmZjY2YzhlIiwidCI6Ijk1NDYxM2ZhLWUzN2UtNDZkNi04NGYxLTJmYjNmMzY3MjExMyJ9)*
+The data pipeline relies entirely on trusted open-source environmental monitoring and geographic data:
+* **Hotspot Data:** Acquired from the *BDQueimadas Program* provided by the National Institute for Space Research (INPE), utilizing the Suomi-NPP satellite (VIIRS sensor, 375m resolution).
+* **Protected Areas:** State park boundaries obtained from the State System of Environmental Geoinformation (SIGA).
+* **Analytical Approach:** Spatial joining and calculation of recurrence intervals (IRFC) to indirectly infer biomass accumulation patterns, climate correlations (Pearson's $r$), and potential fire severity.
 
 ---
 
-## 📂 Data Sources & Methodology
-The data pipeline relies entirely on trusted open-source environmental monitoring data:
-* **Hotspot Data:** Acquired from the **BDQueimadas Program** provided by the National Institute for Space Research (**INPE**), utilizing the Suomi-NPP satellite (VIIRS sensor, 375m resolution)[cite: 2].
-* **Protected Areas:** State park boundaries obtained from the State System of Environmental Geoinformation (**SIGA**)[cite: 2].
-* **Analytical Approach:** Spatial joining and calculation of recurrence intervals (*IRFC*) to indirectly infer biomass accumulation patterns and potential fire severity[cite: 2].
+## 🛠️ Technologies & Tools
+
+* **Power BI / DAX:** Interactive dashboard development, measure creation, and data modeling.
+* **QGIS:** Spatial processing, vector intersection of state park boundaries, and georeferencing.
+* **Google Sheets / Statistics:** Initial data cleaning, descriptive statistics, and correlation analysis.
 
 ---
-*Developed as a technical solution for wildfire risk management and operational planning.*
+
+## 📁 Repository Structure
+
+```text
+wildfire-planning-goias/
+│
+├── README.md                          # Main project documentation (English)
+├── powerbi/                           # BI visualization files
+│   └── painel_focos_calor_goias.pbix  # Analytical dashboard in Power BI
+└── assets/                            # Dashboard screenshots and preview images
+    └── dashboard-1.png
