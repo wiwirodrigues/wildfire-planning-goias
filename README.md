@@ -78,20 +78,15 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 
 ---
 
-## 📁 Repository Structure
-
-```text
 wildfire-planning-goias/
 │
-├── README.md                          # Main project documentation (English)
-├── powerbi/                           # BI visualization files
-│   └── painel_focos_calor_goias.pbix  # Analytical dashboard in Power BI
-└── assets/                            # Dashboard screenshots and preview images
-    ├── dashboard-1.png
-    ├── Heatmap.jpg
-    └── Hotspots.jpg
-├── README.md                          # Main project documentation (English)
-├── powerbi/                           # BI visualization files
+├── README.md                          # Documentação principal em inglês com links e métricas
+├── powerbi/                           # Arquivos do painel interativo
+│   └── painel_focos_calor_goias.pbix  # Dashboard em Power BI
+└── assets/                            # Imagens de pré-visualização do dashboard
+    ├── Line Chart.png                 # Gráfico de linhas e ranking por parque
+    ├── Heatmap.png                    # Mapa de calor de anomalias térmicas
+    └── Hotspots.png                   # Mapeamento geoespacial de focos de calor   # BI visualization files
 │   └── painel_focos_calor_goias.pbix  # Analytical dashboard in Power BI
 └── assets/                            # Dashboard screenshots and preview images
     └── dashboard-1.png
