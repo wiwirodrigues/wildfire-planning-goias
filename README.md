@@ -81,7 +81,6 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 ```markdown
 ## 📁 Repository Structure
 
-```text
 wildfire-planning-goias/
 │
 ├── README.md                          # Main project documentation (English)
