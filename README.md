@@ -78,7 +78,7 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 
 ---
 
-wildfire-planning-goias/
+## wildfire-planning-goias/
 │
 ├── README.md                          # Documentação principal em inglês com links e métricas
 ├── powerbi/                           # Arquivos do painel interativo
