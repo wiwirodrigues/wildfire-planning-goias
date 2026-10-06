@@ -26,24 +26,28 @@ Explore the interactive Power BI dashboard directly in your browser:
 
 ## 📊 Dashboard Preview
 
-Here is a preview of the interactive analytical views structured in the Power BI dashboard:
+Here are previews of the analytical views and interactive maps structured in the Power BI dashboard:
 
 <p align="center">
   <img src="assets/dashboard-1.png" alt="Dashboard Overview - Monthly Hotspots & Parks Ranking" width="100%">
 </p>
 <p align="center">
-  <em>Figure 1: Hotspots temporal distribution by month and ranking by state park.</em>
+  <em>Figure 1: Monthly temporal distribution of hotspots and ranking by state park.</em>
 </p>
 
-<!-- You can add additional screenshots below following the same format -->
-<!--
 <p align="center">
-  <img src="assets/dashboard-2.png" alt="Interactive Map View" width="100%">
+  <img src="assets/Heatmap.jpg" alt="Interactive Heatmap View" width="100%">
 </p>
 <p align="center">
-  <em>Figure 2: Geospatial distribution of hotspots across Goiás State Parks.</em>
+  <em>Figure 2: Heatmap visualization highlighting concentration zones of thermal anomalies across Goiás.</em>
 </p>
--->
+
+<p align="center">
+  <img src="assets/Hotspots.jpg" alt="Interactive Hotspots Map View" width="100%">
+</p>
+<p align="center">
+  <em>Figure 3: Georeferenced individual hotspots map categorized chronologically by year (2016–2025).</em>
+</p>
 
 ---
 
@@ -80,6 +84,13 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 ```text
 wildfire-planning-goias/
 │
+├── README.md                          # Main project documentation (English)
+├── powerbi/                           # BI visualization files
+│   └── painel_focos_calor_goias.pbix  # Analytical dashboard in Power BI
+└── assets/                            # Dashboard screenshots and preview images
+    ├── dashboard-1.png
+    ├── Heatmap.jpg
+    └── Hotspots.jpg
 ├── README.md                          # Main project documentation (English)
 ├── powerbi/                           # BI visualization files
 │   └── painel_focos_calor_goias.pbix  # Analytical dashboard in Power BI
