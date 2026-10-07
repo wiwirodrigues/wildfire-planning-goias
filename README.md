@@ -8,21 +8,21 @@ Interactive Business Intelligence dashboard for wildfire prevention planning in 
 ![Cerrado](https://img.shields.io/badge/Biome-Cerrado-green?style=for-the-badge)
 ![CBMGO](https://img.shields.io/badge/Domain-Wildfire%20Management-red?style=for-the-badge)
 
----
+
 
 ## 📌 About the Project
 
 This project presents an interactive **Business Intelligence (BI)** dashboard designed to support strategic planning and preventive actions against wildfires in the state parks of Goiás, Brazil.  
 Using historical georeferenced hotspot data from **2016 to 2025**, the tool helps decision-makers identify critical areas, analyze fire recurrence patterns, and optimize the allocation of operational resources for environmental protection.
 
----
+
 
 ## 🚀 Live Interactive Dashboard
 
 Explore the interactive Power BI dashboard directly in your browser:  
 👉 **[Access the Power BI Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNWRkNDQwN2QtOGRjOS00NjMwLTkzNTctMTBkMDZmZjY2YzhlIiwidCI6Ijk1NDYxM2ZhLWUzN2UtNDZkNi04NGYxLTJmYjNmMzY3MjExMyJ9)**
 
----
+
 
 ## 📊 Dashboard Preview
 
@@ -48,7 +48,7 @@ Here are previews of the analytical views and interactive maps structured in the
 <p align="center">
   <em>Figure 3: Georeferenced individual hotspots map categorized chronologically by year (2016–2025).</em>
 </p>
----
+
 
 ## 🔍 Key Findings & Ecological Insights
 
