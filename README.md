@@ -59,7 +59,6 @@ Here are previews of the analytical views and interactive maps structured in the
 * **The Ecological Factor:** The Cerrado biome features a high density of grasses and herbaceous vegetation (fine fuels) with rapid biomass reconstitution capacity, explaining why the vast majority of reburns (87.2%) occur within a 4-year window.
 * **Critical Units:** The **Terra Ronca State Park (PETER)** alone concentrated **50.7%** of the records (1,406 foci), followed by the **Serra Dourada State Park (PESD)** with **20.6%**.
 
----
 
 ## 📁 Data Sources & Methodology
 
@@ -68,7 +67,7 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 * **Protected Areas:** State park boundaries obtained from the State System of Environmental Geoinformation (SIGA).
 * **Analytical Approach:** Spatial joining and calculation of recurrence intervals (IRFC) to indirectly infer biomass accumulation patterns, climate correlations (Pearson's $r$), and potential fire severity.
 
----
+
 
 ## 🛠️ Technologies & Tools
 
@@ -76,7 +75,7 @@ The data pipeline relies entirely on trusted open-source environmental monitorin
 * **QGIS:** Spatial processing, vector intersection of state park boundaries, and georeferencing.
 * **Google Sheets / Statistics:** Initial data cleaning, descriptive statistics, and correlation analysis.
 
----
+
 
 ```markdown
 ## 📁 Repository Structure
