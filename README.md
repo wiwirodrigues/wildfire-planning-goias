@@ -5,7 +5,7 @@
 ![Cerrado](https://img.shields.io/badge/Biome-Cerrado-green?style=for-the-badge)
 ![CBMGO](https://img.shields.io/badge/Domain-Wildfire%20Management-red?style=for-the-badge)
 
-# Does a 3-Year Fire Rule Hold in the Cerrado? Heat-Hotspot Recurrence in Goiás State Parks
+# Does a 3-Year Fire Rule Hold in the Cerrado? Heat-Hotspot Recurrence in Goiás State Parks - Brazil
 
 Power BI, QGIS and Excel analysis of 2,774 satellite heat hotspots recorded in 9 Goiás state parks between 2016 and 2025. The Goiás Military Fire Department (CBMGO) received a study stating that, after a fire, fuel takes about **three years** to recover before the same area can burn again. If that held in Goiás, recently burned areas could be left out of inspection rounds for three years. This project tests whether the study's interval applies to the Cerrado, explains why it does not, and proposes a safer way to prioritize prevention.
 
